@@ -9,7 +9,7 @@ maybe write this in kotl complex thoughts
 
 ## ExoBrain terms .
 
-ExoBrain &#x2013; external brain | Second Brain &#x2013; external computer brain "to be used in conjunction with your brian" &#x2013; toss this? getting wordy? | GTD &#x2013; getting things done | PIM &#x2013; Personal imformation managment | PKM &#x2013; Personal knoledge managment | ZettleKasten &#x2013; system of interconncted notes | etc&#x2026;
+ExoBrain &#x2013; external brain | Second Brain &#x2013; external computer brain "to be used in conjunction with your brian" &#x2013; toss this? getting wordy? | GTD &#x2013; getting things done | PIM &#x2013; Personal information management | PKM &#x2013; Personal knowledge management | Zettelkasten &#x2013; system of interconncted notes | etc&#x2026;
 
 
 # ExoBrain packages feature chart

@@ -8,7 +8,7 @@ Why do this
 There are a lot of programs to become your ExoBrain all designed with differing philosophies and
 maybe write this in kotl complex thoughts
 ** ExoBrain terms . 
-ExoBrain -- external brain | Second Brain -- external computer brain "to be used in conjunction with your brian" -- toss this? getting wordy? | GTD -- getting things done | PIM -- Personal imformation managment | PKM -- Personal knoledge managment | ZettleKasten -- system of interconncted notes | etc...
+ExoBrain -- external brain | Second Brain -- external computer brain "to be used in conjunction with your brian" -- toss this? getting wordy? | GTD -- getting things done | PIM -- Personal information management | PKM -- Personal knowledge management | Zettelkasten -- system of interconncted notes | etc...
 
 * ExoBrain packages feature chart
 
