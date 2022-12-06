@@ -1,0 +1,156 @@
+:PROPERTIES:
+:ID:       3he2qix0xnj0
+:END:
+#+title: Emacs ExoBrains Comparison
+
+* TODO intro -- I will write this after more of the document is done, besides being easier and at that point I would probably rewrite it anyway
+Why do this
+There are a lot of programs to become your ExoBrain all designed with differing philosophies and
+maybe write this in kotl complex thoughts
+** ExoBrain terms . 
+ExoBrain -- external brain | Second Brain -- external computer brain "to be used in conjunction with your brian" -- toss this? getting wordy? | GTD -- getting things done | PIM -- Personal imformation managment | PKM -- Personal knoledge managment | ZettleKasten -- system of interconncted notes | etc...
+
+* ExoBrain packages feature chart
+
+
+|------------------+----------------+--------------+----------------+--------------+------+-------------+-------------|
+| Features         | bi-directional | links in the | pre computer   | Programmatic | docs | tutorials   | Active      |
+|                  |          links | wild         | copy and paste | Links        |      |             | development |
+|                  |                |              |                |              |      |             |             |
+|------------------+----------------+--------------+----------------+--------------+------+-------------+-------------|
+| Org Mode         |              1 | ?            | 2?             | 2            |    3 | 2           | 4           |
+| Org-Roam         |              4 | N/A          | N/A            | N/A          |      |             |             |
+| LogSeq           |              4 | 3            | 4              |              |      |             |             |
+| Zk               |                |              |                |              |      |             |             |
+| Hyperbole        |                |              |                |              |      | Built in    |             |
+| Denote           |                |              |                |              |      | ??          |             |
+| Eev              |                |              |                |              |      | Built in    |             |
+| Org-Zettelkasten |                |              |                |              |      | ??          |             |
+| Zetteldeft       |                |              |                |              |      | [[https://github.com/EFLS/zd-tutorial][zd-tutorial]] |             |
+| Deft             |                |              |                |              |      |             |             |
+| Org-Brain        |                |              |                |              |      |             |             |
+| Bookmark Plus    |                |              |                |              |      |             |             |
+| howm             |                |              |                |              |      |             |             |
+|------------------+----------------+--------------+----------------+--------------+------+-------------+-------------|
+
+Legend
+   1) No feature
+   2) kinda has feature
+   3) Has feature
+   4) Has feature plus extras
+*  other interesting projects
+* 
+
+* ExoBrain packages compare and contrast
+
+
+|---------------------+----------+----------+----------+------+-----------+------+-----------+------------+-------+---|
+| Compare             | org mode | Org Roam | Koutline | Rolo | HyperBole | ZK   | Org Brain | Zetteldesk | Delve |   |
+| Contrast            |          |          |          |      |     links |      |           |            |       |   |
+|---------------------+----------+----------+----------+------+-----------+------+-----------+------------+-------+---|
+| [[https://orgmode.org/][Org]]                 |          |          |          |      |           |      |           |            |       |   |
+| [[https://www.orgroam.com/][Org Roam]]            |          |          |          |      |           |      |           |            |       |   |
+| [[https://github.com/toshism/org-super-links][Org Super Links]]     |          |          |          |      |           |      |           |            |       |   |
+| [[https://github.com/localauthor/zk][Zk]]                  |          |          |          |      |           |      |           |            |       |   |
+| [[https://github.com/Vidianos-Giannitsis/zetteldesk.el][ZettelDesk]]          |        3 |        3 |        0 |    0 |         2 | 1    |         0 |            |     1 |   |
+| [[https://www.emacswiki.org/emacs/BookmarkPlus][Bookmark Plus]]       |          |          |          |      |           |      |           |            |       |   |
+| Hyperbole/links     |          |          |          |      |           |      |           |            |       |   |
+| Hyperbole/Koutline  |          |          |          |      |           |      |           |            |       |   |
+| Hyperbole/Rolo      |          |          |          |      |           |      |           |            |       |   |
+| Denote              |          |          |          |      |           |      |           |            |       |   |
+| Eev                 |          |          |          |      |           |      |           |            |       |   |
+| [[https://github.com/l3kn/org-zettelkasten][Org-Zettelkasten]]    |          |          |          |      |           |      |           |            |       |   |
+| [[https://www.eliasstorms.net/zetteldeft/][Zetteldeft]]          |          |          |          |      |           |      |           |            |       |   |
+| [[https://jblevins.org/projects/deft/][Deft]]                |          |          |          |      |           |      |           |            |       |   |
+| [[https://github.com/Kungsgeten/org-brain][Org-Brain]]           |          |          |          |      |           |      |           |            |       |   |
+| howm                |          |          |          |      |           |      |           |            |       |   |
+| [[https://github.com/publicimageltd/delve][Delve]]               |        3 |        3 |        0 |    0 |         2 | 1    |         0 |          1 |       |   |
+| [[https://github.com/alphapapa/org-ql][org-ql]]              |        3 |        4 |        1 |    1 |         2 | 1,2¹ |         4 |          4 |     4 |   |
+| [[https://github.com/alphapapa/org-graph-view][org-graph-view]]      |        3 |        1 |        0 |    0 |         2 | 1,2¹ |      1,4? |          2 |     2 |   |
+| Org-drill/Org-fc    |          |          |          |      |           |      |           |            |       |   |
+| Org-depend/Org-edna |          |          |          |      |           |      |           |            |       |   |
+| Org-habbit          |          |          |          |      |           |      |           |            |       |   |
+|---------------------+----------+----------+----------+------+-----------+------+-----------+------------+-------+---|
+
+
+Legend
+0) No support TODO -- messes up list if on same line level so FIXME 
+   1) Alternative
+   2) Supplemental
+   3) Requires
+   4) Extension
+
+
+
+* ExoBrain Packages
+Give short 2 second descriptions to packages
+
+ - [[https://www.orgroam.com/][Org Roam]]  --  Adds id enforcing, backlinks and journaling support to org mode
+ - [[https://github.com/toshism/org-super-links][Org Super Links]]  --  adds backlink for support to org
+ - [[https://github.com/l3kn/org-zettelkasten][Org-Zettelkasten]]  --
+ - [[https://jblevins.org/projects/deft/][Deft]]  -- 
+ - [[https://github.com/Kungsgeten/org-brain][Org-Brain]]  -- Lets you make mind maps in combination with your notes
+ - [[https://howm.osdn.jp/][howm]]  -- Write fragmentarily and read collectively - best [[https://leahneukirchen.org/blog/archive/2022/03/note-taking-in-emacs-with-howm.html][intro]] for howm
+ - [[http://angg.twu.net/eev-intros/find-here-links-intro.html#1][Eev]]  -- Executable logs for Emacs TODO link intro video hard to explain succinctly 
+ - Denote  -- 
+ - [[https://logseq.com/][LogSeq]] -- This is org mode, org roam, org-fc 'flash cards', and org agenda OOTB setup
+             in a standalone multi-platform electron app' including mobile' outside of emacs.
+	     Can be used in [[https://coredumped.dev/2021/05/26/taking-org-roam-everywhere-with-logseq/][conjunction]] with org roam using this [[https://gist.github.com/zot/ddf1a89a567fea73bc3c8a209d48f527][fix]] own your existing LogSeq knowledge base
+ - [[https://github.com/localauthor/zk][Zk]]  --
+ - Hyerbole -- 
+   - Hyperbole/Rolo  -- 
+   - Hyperbole/Koutline  -- 
+   - Hyperbole/links?? Maybe  -- 
+
+* Org mode enhancements
+Give short 2 second descriptions to packages
+
+
+ - [[https://github.com/Vidianos-Giannitsis/zetteldesk.el][ZettelDesk]]  --  TODO better description -- adds pre-computer cut and paste
+ - [[https://github.com/nobiot/org-remark][Org-Remark]] -- Lets you highlight and annotate org files. Pairs nicely with org-web-tools
+ - [[https://github.com/alphapapa/org-web-tools][org-web-tools]] -- Lets you download web pages into org mode. meant to go with org-capture and org-protocol
+ - [[https://www.eliasstorms.net/zetteldeft/][Zetteldeft]]  -- uses "§2018-07-07-2356"  as a UUID an to make notes unique and add features like backlinks etc...
+ - [[https://github.com/publicimageltd/delve][Delve]]  -- 
+ - [[https://github.com/alphapapa/org-ql][org-ql]]  -- Query language for org mode files. example search for org entries with tag x and y only on TODO in the last 2 weeks
+ - [[https://github.com/alphapapa/org-graph-view][org-graph-view]]  -- Mind map view for org files -- WIP
+ - [[https://orgmode.org/worg/org-contrib/org-drill.html][Org-drill]]/[[https://www.leonrische.me/fc/index.html][Org-fc]]  -- Turn your notes into flash cards with Spaced repetition. Choose one
+ - Org-depend/Org-edna  -- Org task dependency tracking. Choose one
+ - Org-habbit  -- For GTD tasks that need to be done particular but not on any particle day. ex habits and stuff like laundry
+
+
+* Goals
+
+** Working on
+*** TODO Fix this charts remove org enhancements package from charts packages and focus on comparing and contrasting ExoBrain packages
+*** TODO Compare packages intelligently. ex Zetteldesk is not a ExoBrain so not in charts. org super links is for ExoBrains so in charts
+*** TODO Clean up document
+*** TODO Add more packages
+*** TODO Fill out package descriptions
+*** TODO Add unicode superscripts ³ in charts and at bottom of charts for additional notes as needed
+*** TODO Count talks in EmacsConf 2022 talking about ExoBrains for use in intro. There was a lot of them
+
+
+** Goals
+    1) Give short 2 second descriptions to packages
+    2) Compare and contrast packages
+       1) This is where "I/we?? choose one" expound on subjects that differentiate between these packages
+       2) Talk some about the philosophies and workflows some packagers encourage or were made for
+
+
+** TODO Maybe Goals | Nice to have Goals -- Choose one
+    1) Make multiple MVP "minimum viable product / or bare-bones" emacs configs
+       with some demo ExoBrains so you can get a feel for the workflow
+       - Might be a separate project but intended to be used in conjunction with this document
+       - Might go into nice to have
+
+
+** Nice to have Goals
+
+** Non Goals
+    1) Describe packages
+       - The intro for packages would be better on the packages homepage
+       - Would make this to verbose
+       - Linking to other descriptions would be better
+    2) Rank order packages
+    3) Describe why ExoBrain ideas or good. We might link to some but this is a reference document not an intro.
+
