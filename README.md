@@ -20,6 +20,10 @@ ExoBrain &#x2013; external brain | Second Brain &#x2013; external computer brain
 <colgroup>
 <col  class="org-left" />
 
+<col  class="org-left" />
+
+<col  class="org-right" />
+
 <col  class="org-right" />
 
 <col  class="org-right" />
@@ -29,44 +33,45 @@ ExoBrain &#x2013; external brain | Second Brain &#x2013; external computer brain
 <col  class="org-left" />
 
 <col  class="org-right" />
-
-<col  class="org-left" />
 
 <col  class="org-right" />
 </colgroup>
 <thead>
 <tr>
 <th scope="col" class="org-left">Features</th>
-<th scope="col" class="org-right">bi-directional</th>
+<th scope="col" class="org-left">bi-directional</th>
 <th scope="col" class="org-right">links in the</th>
 <th scope="col" class="org-right">pre computer</th>
-<th scope="col" class="org-left">Programmatic</th>
+<th scope="col" class="org-right">Programmatic</th>
 <th scope="col" class="org-right">docs</th>
 <th scope="col" class="org-left">tutorials</th>
 <th scope="col" class="org-right">Active</th>
+<th scope="col" class="org-right">Multiple extensions</th>
 </tr>
 
 
 <tr>
 <th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-right">links</th>
+<th scope="col" class="org-left">links</th>
 <th scope="col" class="org-right">wild</th>
 <th scope="col" class="org-right">copy and paste</th>
-<th scope="col" class="org-left">Links</th>
+<th scope="col" class="org-right">Links</th>
 <th scope="col" class="org-right">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-right">development</th>
+<th scope="col" class="org-right">&#xa0;</th>
 </tr>
 
 
 <tr>
 <th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-right">&#xa0;</th>
 <th scope="col" class="org-right">&#xa0;</th>
 <th scope="col" class="org-right">&#xa0;</th>
 <th scope="col" class="org-right">&#xa0;</th>
 <th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-right">&#xa0;</th>
-<th scope="col" class="org-left">&#xa0;</th>
 <th scope="col" class="org-right">&#xa0;</th>
 </tr>
 </thead>
@@ -74,157 +79,170 @@ ExoBrain &#x2013; external brain | Second Brain &#x2013; external computer brain
 <tbody>
 <tr>
 <td class="org-left">Org Mode</td>
-<td class="org-right">1</td>
+<td class="org-left">1</td>
 <td class="org-right">?</td>
 <td class="org-right">2?</td>
-<td class="org-left">2</td>
+<td class="org-right">2</td>
 <td class="org-right">3</td>
-<td class="org-left">2</td>
+<td class="org-left">&#xa0;</td>
 <td class="org-right">4</td>
+<td class="org-right">N/A</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Org-Roam</td>
-<td class="org-right">4</td>
+<td class="org-left">4</td>
 <td class="org-right">N/A</td>
 <td class="org-right">N/A</td>
-<td class="org-left">N/A</td>
+<td class="org-right">N/A</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-right">4</td>
+<td class="org-right">0</td>
 </tr>
 
 
 <tr>
 <td class="org-left">LogSeq</td>
-<td class="org-right">4</td>
+<td class="org-left">4</td>
 <td class="org-right">3</td>
 <td class="org-right">4</td>
-<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Zk</td>
+<td class="org-left">1-4?</td>
+<td class="org-right">?</td>
+<td class="org-right">4</td>
+<td class="org-right">1</td>
 <td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-left">1</td>
+<td class="org-right">4</td>
+<td class="org-right">4</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Hyperbole</td>
+<td class="org-left">?</td>
+<td class="org-right">4</td>
 <td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-left">Built in</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-right">4</td>
+<td class="org-right">4</td>
+<td class="org-left">Built in example</td>
+<td class="org-right">4</td>
+<td class="org-right">4</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Denote</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
-<td class="org-left">??</td>
 <td class="org-right">&#xa0;</td>
+<td class="org-right">1</td>
+<td class="org-right">4</td>
+<td class="org-left"><a href="https://www.youtube.com/watch?v=mLzFJcLpDFI">Prot Youtube</a></td>
+<td class="org-right">4</td>
+<td class="org-right">2</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Eev</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">4</td>
+<td class="org-right">4</td>
 <td class="org-left">Built in</td>
+<td class="org-right">3</td>
 <td class="org-right">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Org-Zettelkasten</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
 <td class="org-left">??</td>
+<td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Zetteldeft</td>
+<td class="org-left">4</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left"><a href="https://github.com/EFLS/zd-tutorial">zd-tutorial</a></td>
 <td class="org-right">&#xa0;</td>
+<td class="org-right">4</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Deft</td>
+<td class="org-left">1</td>
+<td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-right">4</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Org-Brain</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-right">N/A</td>
 </tr>
 
 
 <tr>
 <td class="org-left">Bookmark Plus</td>
+<td class="org-left">?</td>
+<td class="org-right">N/A</td>
 <td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-right">2</td>
+<td class="org-right">Wiki</td>
+<td class="org-left">some on youtube</td>
+<td class="org-right">3</td>
+<td class="org-right">N/A</td>
 </tr>
 
 
 <tr>
 <td class="org-left">howm</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-right">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-right">&#xa0;</td>
+<td class="org-right">4</td>
 </tr>
 </tbody>
 </table>
@@ -234,7 +252,7 @@ Legend
 1.  No feature
 2.  kinda has feature
 3.  Has feature
-4.  Has feature plus extras
+4.  Has feature plus extras, for example with org roam you have other packages being made to use in tandem with org roam
 
 
 # other interesting projects
@@ -654,7 +672,7 @@ Give short 2 second descriptions to packages
 -   [Org-Brain](https://github.com/Kungsgeten/org-brain)  &#x2013; Lets you make mind maps in combination with your notes
 -   [howm](https://howm.osdn.jp/)  &#x2013; Write fragmentarily and read collectively - best [intro](https://leahneukirchen.org/blog/archive/2022/03/note-taking-in-emacs-with-howm.html) for howm
 -   [Eev](http://angg.twu.net/eev-intros/find-here-links-intro.html#1)  &#x2013; Executable logs for Emacs TODO link intro video hard to explain succinctly
--   Denote  &#x2013;
+-   [Denote](https://protesilaos.com/emacs/denote)  &#x2013; Denote aims to be a simple-to-use, focused-in-scope, and effective note-taking tool for Emacs.
 -   [LogSeq](https://logseq.com/) &#x2013; This is org mode, org roam, org-fc 'flash cards', and org agenda OOTB setup
     in a standalone multi-platform electron app' including mobile' outside of emacs.
     Can be used in [conjunction](https://coredumped.dev/2021/05/26/taking-org-roam-everywhere-with-logseq/) with org roam using this [fix](https://gist.github.com/zot/ddf1a89a567fea73bc3c8a209d48f527) own your existing LogSeq knowledge base
@@ -662,7 +680,11 @@ Give short 2 second descriptions to packages
 -   Hyerbole &#x2013; 
     -   Hyperbole/Rolo  &#x2013;
     -   Hyperbole/Koutline  &#x2013;
-    -   Hyperbole/links?? Maybe  &#x2013;
+    -   Hyperbole/Implicit links  &#x2013; These push the concept of links into things like keyboard macros button/links that you can press
+    -   Hyperbole/Explicit links  &#x2013; Pushes links in the wild that you find elsewhere by giving you a DWIM command for
+        -   <https://youtube.com> &#x2013; go to site in browser
+        -   mattplasmastrike@gmail.com &#x2013; start opening email client to email
+        -   [Hyperbole](https://www.gnu.org/software/hyperbole/) &#x2013; Looks like an Org Mode link, go to
 
 
 # Org mode enhancements

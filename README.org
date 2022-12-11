@@ -13,31 +13,32 @@ ExoBrain -- external brain | Second Brain -- external computer brain "to be used
 * ExoBrain packages feature chart
 
 
-|------------------+----------------+--------------+----------------+--------------+------+-------------+-------------|
-| Features         | bi-directional | links in the | pre computer   | Programmatic | docs | tutorials   | Active      |
-|                  |          links | wild         | copy and paste | Links        |      |             | development |
-|                  |                |              |                |              |      |             |             |
-|------------------+----------------+--------------+----------------+--------------+------+-------------+-------------|
-| Org Mode         |              1 | ?            | 2?             | 2            |    3 | 2           | 4           |
-| Org-Roam         |              4 | N/A          | N/A            | N/A          |      |             |             |
-| LogSeq           |              4 | 3            | 4              |              |      |             |             |
-| Zk               |                |              |                |              |      |             |             |
-| Hyperbole        |                |              |                |              |      | Built in    |             |
-| Denote           |                |              |                |              |      | ??          |             |
-| Eev              |                |              |                |              |      | Built in    |             |
-| Org-Zettelkasten |                |              |                |              |      | ??          |             |
-| Zetteldeft       |                |              |                |              |      | [[https://github.com/EFLS/zd-tutorial][zd-tutorial]] |             |
-| Deft             |                |              |                |              |      |             |             |
-| Org-Brain        |                |              |                |              |      |             |             |
-| Bookmark Plus    |                |              |                |              |      |             |             |
-| howm             |                |              |                |              |      |             |             |
-|------------------+----------------+--------------+----------------+--------------+------+-------------+-------------|
+|------------------+----------------+--------------+----------------+--------------+------+------------------+-------------+---------------------|
+| Features         | bi-directional | links in the | pre computer   | Programmatic | docs | tutorials        |      Active | Multiple extensions |
+|                  |          links | wild         | copy and paste |        Links |      |                  | development |                     |
+|                  |                |              |                |              |      |                  |             |                     |
+|------------------+----------------+--------------+----------------+--------------+------+------------------+-------------+---------------------|
+| Org Mode         |              1 | ?            | 2?             |            2 |    3 |                  |           4 |                 N/A |
+| Org-Roam         |              4 | N/A          | N/A            |          N/A |      |                  |           4 |                   0 |
+| LogSeq           |              4 | 3            | 4              |              |      |                  |           4 |                   2 |
+| Zk               |           1-4? | ?            | 4              |            1 |      | 1                |           4 |                   4 |
+| Hyperbole        |              ? | 4            |                |            4 |    4 | Built in example |           4 |                   4 |
+| Denote           |                |              |                |            1 |    4 | [[https://www.youtube.com/watch?v=mLzFJcLpDFI][Prot Youtube]]     |           4 |                   2 |
+| Eev              |                |              |                |            4 |    4 | Built in         |           3 |                     |
+| Org-Zettelkasten |                |              |                |              |      | ??               |             |                     |
+| Zetteldeft       |              4 |              |                |              |      | [[https://github.com/EFLS/zd-tutorial][zd-tutorial]]      |             |                   4 |
+| Deft             |              1 |              |                |              |      |                  |             |                   4 |
+| Org-Brain        |                |              |                |              |      |                  |             |                 N/A |
+| Bookmark Plus    |              ? | N/A          |                |            2 | Wiki | some on youtube  |           3 |                 N/A |
+| howm             |                |              |                |              |      |                  |             |                   4 |
+|------------------+----------------+--------------+----------------+--------------+------+------------------+-------------+---------------------|
 
 Legend
    1) No feature
    2) kinda has feature
    3) Has feature
-   4) Has feature plus extras
+   4) Has feature plus extras, for example with org roam you have other packages being made to use in tandem with org roam
+
 *  other interesting projects
 * 
 
@@ -92,7 +93,7 @@ Give short 2 second descriptions to packages
  - [[https://github.com/Kungsgeten/org-brain][Org-Brain]]  -- Lets you make mind maps in combination with your notes
  - [[https://howm.osdn.jp/][howm]]  -- Write fragmentarily and read collectively - best [[https://leahneukirchen.org/blog/archive/2022/03/note-taking-in-emacs-with-howm.html][intro]] for howm
  - [[http://angg.twu.net/eev-intros/find-here-links-intro.html#1][Eev]]  -- Executable logs for Emacs TODO link intro video hard to explain succinctly 
- - Denote  -- 
+ - [[https://protesilaos.com/emacs/denote][Denote]]  -- Denote aims to be a simple-to-use, focused-in-scope, and effective note-taking tool for Emacs.
  - [[https://logseq.com/][LogSeq]] -- This is org mode, org roam, org-fc 'flash cards', and org agenda OOTB setup
              in a standalone multi-platform electron app' including mobile' outside of emacs.
 	     Can be used in [[https://coredumped.dev/2021/05/26/taking-org-roam-everywhere-with-logseq/][conjunction]] with org roam using this [[https://gist.github.com/zot/ddf1a89a567fea73bc3c8a209d48f527][fix]] own your existing LogSeq knowledge base
@@ -100,7 +101,11 @@ Give short 2 second descriptions to packages
  - Hyerbole -- 
    - Hyperbole/Rolo  -- 
    - Hyperbole/Koutline  -- 
-   - Hyperbole/links?? Maybe  -- 
+   - Hyperbole/Implicit links  -- These push the concept of links into things like keyboard macros button/links that you can press
+   - Hyperbole/Explicit links  -- Pushes links in the wild that you find elsewhere by giving you a DWIM command for
+     - https://youtube.com -- go to site in browser
+     - mattplasmastrike@gmail.com -- start opening email client to email
+     - [[https://www.gnu.org/software/hyperbole/][Hyperbole]] -- Looks like an Org Mode link, go to
 
 * Org mode enhancements
 Give short 2 second descriptions to packages
